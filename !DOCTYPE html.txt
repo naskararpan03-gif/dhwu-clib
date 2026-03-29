@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Website</title>
+    <style>
+        body { font-family: Arial; margin: 0; }
+        nav { background: #003366; padding: 10px; }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover { color: yellow; }
+        section { padding: 20px; }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About the Library</a>
+    <a href="https://nlist.inflibnet.ac.in/">E-Resources</a>
+    <a href="http://your-opac-link">OPAC</a>
+    <a href="#utilities">Utilities</a>
+    <a href="#ir">IR</a>
+    <a href="#people">People</a>
+</nav>
+
+<section id="home">
+    <h1>Welcome to Central Library</h1>
+</section>
+
+<section id="about">
+    <h2>About the Library</h2>
+    <p>Details about your library...</p>
+</section>
+
+<section id="utilities">
+    <h2>Utilities</h2>
+    <p>Library services, forms, downloads...</p>
+</section>
+
+<section id="ir">
+    <h2>Institutional Repository</h2>
+    <p>Link to IR...</p>
+</section>
+
+<section id="people">
+    <h2>Library Staff</h2>
+    <p>Details of librarians and staff...</p>
+</section>
+
+</body>
+</html>
